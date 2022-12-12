@@ -1,16 +1,16 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
   background: linear-gradient(
     90deg,
     rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(100, 255, 110) 100%
   );
 }
 .todo-app {
@@ -19,16 +19,17 @@ body {
   justify-content: start;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
+  background: #f1f1f1;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+  border: 2px solid rgb(94, 94, 94);
 }
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: rgb(19, 19, 19);
   font-size: 24px;
 }
 
@@ -44,15 +45,15 @@ h1 {
 .todo-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #5d0cff;
+  border: 2px solid #0caeff;
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: rgb(47, 47, 47);
 }
 
 .todo-input::placeholder {
-  color: #e2e2e2;
+  color: #777777;
 }
 
 .todo-button {
@@ -63,7 +64,7 @@ h1 {
   outline: none;
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
+    rgb(12, 202, 255) 0%,
     rgba(155, 0, 250, 1) 100%
   );
   color: #fff;
@@ -97,8 +98,8 @@ h1 {
   color: #fff;
   background: linear-gradient(
     90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
+    rgb(20, 149, 255) 0%,
+    rgba(23, 118, 11, 0.47) 100%
   );
 
   padding: 16px;
@@ -110,7 +111,7 @@ h1 {
   background: linear-gradient(
     90deg,
     rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgba(40, 3, 62, 0.414) 100%
   );
 }
 
@@ -118,7 +119,7 @@ h1 {
   background: linear-gradient(
     90deg,
     rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
+    rgba(74, 3, 41, 0.432) 100%
   );
 }
 
@@ -126,7 +127,7 @@ h1 {
   background: linear-gradient(
     90deg,
     rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgba(108, 3, 33, 0.413) 100%
   );
 }
 
